@@ -1,0 +1,125 @@
+.its-made {
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 39px;
+
+    @media screen and (max-width: 767px){
+
+        background-image: url(../images/its_made/section-bg1200.png);   
+        background-repeat: no-repeat;
+        background-size: 100% 133px;
+        background-position: center bottom;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 130px;
+        padding-bottom: 66px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        background-image: url(../images/its_made/section-bg1200.png);   
+        background-repeat: no-repeat;
+        background-size: 100% 534px;
+        background-position: center bottom;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 125px;
+        padding-bottom: 39px;
+    }
+}
+
+.bg-color {
+    background-color: var(--secondary-background-color);
+}
+
+.its-made__sub-box {  
+    @media screen and (max-width: 480px) {
+       width: 220px;
+       margin-left: auto;
+       margin-right: auto;        
+    }
+
+    @media screen and (max-width: 767px) {
+        min-width: 220px;
+        margin-left: auto;
+        margin-right: auto;        
+     }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 50px;
+        padding-left: 17px;
+                
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 51px;
+        padding-left: 74px;        
+    }
+}
+
+.its-made__box-img{    
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+        max-width: 340px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        max-width: 516px;
+    }
+}
+
+.its-made__text {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.58;
+    color: var(--black);
+    margin-bottom: 46px;
+    letter-spacing: 0.04em;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.78;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+}
+
+.its-made__text2 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.58;
+    color: var(--grey);
+    margin-bottom: 46px;
+    letter-spacing: 0.04em;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+}
+
+
+.its-made__box {    
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }   
+}
+
+.title-padding {
+    margin-bottom: 25px;
+    @media screen and (min-width: 768px) {
+    margin-bottom: 55px;
+    }
+}

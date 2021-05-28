@@ -1,0 +1,119 @@
+.footer {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  }
+  padding-top: 113px;
+
+  &__own-thumb {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  background: var(--secondary-background-color);
+  &__title,
+  &__subtitle {
+    font-family: Titan One;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__title {
+    max-width: 232px;
+    color: var(--title-text-color);
+
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 1.16;
+
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      max-width: 370px;
+      font-size: 26px;
+      line-height: 1.15;
+      letter-spacing: 0.04em;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 502px;
+      font-size: 30px;
+      line-height: 1.13;
+    }
+  }
+  &__subtitle {
+    max-width: 200px;
+    margin-bottom: 44px;
+    color: var(--accent-color);
+
+    font-size: 34px;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      max-width: 340px;
+      font-size: 48px;
+      line-height: 1.14;
+      letter-spacing: 0.06em;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 518px;
+      font-size: 58px;
+      line-height: 1.13;
+      letter-spacing: 0.06em;
+    }
+  }
+  &__right-side-thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__decoration-line {
+    display: block;
+    border-top: 1px solid #e1e1e1;
+  }
+  &__tel-number {
+    max-width: 300px;
+    margin-bottom: 44px;
+
+    color: var(--black);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 1.83;
+
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      max-width: 340px;
+      font-size: 14px;
+      line-height: 1.85;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 380px;
+      font-size: 16px;
+      line-height: 1.87;
+    }
+  }
+  &__tel-number_disagn {
+    color: var(--accent-color);
+  }
+
+  &__copyright {
+    max-width: 150px;
+    margin: 0 auto;
+
+    padding-top: 22px;
+    padding-bottom: 25px;
+
+    color: var(--grey);
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      padding-top: 30px;
+      padding-bottom: 18px;
+      max-width: none;
+    }
+    @media screen and (min-width: 1280px) {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-width: none;
+    }
+  }
+}
